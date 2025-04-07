@@ -30,4 +30,4 @@ Il sistema di scoring non ha lo scopo di migliorare direttamente il bambino, ma 
 ## Installazione
 
 E necessario installare android developer e pepper sdk e lanciare l'applicazione robotica.
-Seguire la documentazione allegata per lanciare unapplicazione robotica mediante android.
+Seguire la documentazione allegata per lanciare un' applicazione robotica mediante android.
