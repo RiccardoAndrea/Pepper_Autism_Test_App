@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplicationpep">
+    <!-- Permessi per l'accesso alla memoria esterna -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplicationPep">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TorreDiLondraActivity" />
+        <activity android:name=".TrogActivity" />
+        <activity android:name=".SalvaDatiActivity" />
+        <activity android:name=".TestTerminatoActivity" />
+        <activity android:name=".PunteggioActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".TrogStartActivity"></activity>
+        <activity android:name=".SelezionaTestActivity"></activity>
+        <activity android:name=".ClozeTestActivity"></activity>
+        <activity android:name=".ClozeTestStartActivity"></activity>
+        <activity android:name=".GestionePazienteActivity"></activity>
+        <activity android:name=".TeoriaDellaMenteActivity"></activity>
+        <activity android:name=".TeoriaDellaMenteStartActivity"></activity>
+        <activity android:name=".SelezionaPazienteActivity"></activity>
+        <activity android:name=".DettagliPazienteActivity"></activity>
+        <activity android:name=".StoricoTestActivity"></activity>
+        <activity android:name=".GestisciNoteActivity"></activity>
+        <activity android:name=".AggiungiNotaActivity"></activity>
+        <activity android:name=".VisualizzaNotaActivity"></activity>
+        <activity android:name=".RegistrazioniTeoriaDellaMenteActivity"></activity>
+        <activity android:name=".GraficoTortaActivity"></activity>
+        <activity android:name=".GraficoTemporaleActivity"></activity>
+        <activity android:name=".SelezionaGraficoActivity"></activity>
+        <activity android:name=".GraficoBarreActivity"></activity>
+
+        
+    </application>
+
+
+    <uses-feature android:name="com.softbank.hardware.pepper"/>
+</manifest>

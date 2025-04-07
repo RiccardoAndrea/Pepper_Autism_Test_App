@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.GialloContorniNeri" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#0000cd</item>
+        <item name="android:shadowColor">#FF0000FF</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+</resources>

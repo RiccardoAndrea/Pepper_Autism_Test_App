@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F8F9FA">
+    <ImageView
+        android:id="@+id/torna"
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:onClick="tornaIndietro"
+        android:src="@drawable/torna" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrazioni delle Risposte"
+        android:textSize="22sp"
+        android:textColor="#333"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:id="@+id/listaRegistrazioni">
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

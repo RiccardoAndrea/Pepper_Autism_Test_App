@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Immagine per Nota"
+        android:src="@drawable/torna"
+        android:onClick="tornaIndietro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scrivi Nota"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"/>
+
+    <!-- Area per scrivere la nota -->
+    <EditText
+        android:id="@+id/textNota"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Scrivi una nota"
+        android:gravity="top|start"
+        android:inputType="textMultiLine|textCapSentences"
+        android:scrollbars="vertical"
+        android:padding="10dp"
+        android:textSize="16sp"/>
+
+    <!-- Pulsante per salvare la nota -->
+    <Button
+        android:id="@+id/salvaNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salva Nota"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <!-- Aggiungi ScrollView per la possibilità di scorrere i dati -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- LinearLayout dinamico dove verranno aggiunti i TextView -->
+        <LinearLayout
+            android:id="@+id/dynamicLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- TextView iniziale per mostrare un'intestazione -->
+            <TextView
+                android:id="@+id/textViewDati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scegli bambino"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
