@@ -1,8 +1,8 @@
 # Pepper Autism Test App
 
-**Pepper Autism Test App** è un'applicazione Android sviluppata per **Pepper**, un robot umanoide progettato per supportare i test interattivi destinati ai bambini con autismo. L'app consente di erogare diversi tipi di test, tra cui il **T.R.O.G Test**, il **Cloze Test** e il test di **Teoria della Mente** Sally-Anne, con l'obiettivo di raccogliere risposte e fornire un'analisi basata sul comportamento dei bambini durante i test.
+**Pepper Autism Test App** è un'applicazione Android sviluppata per **Pepper**, un robot umanoide progettato per supportare i test interattivi destinati ai bambini con autismo. L'app consente di erogare diversi tipi di test, tra cui il **T.R.O.G Test**, il **Cloze Test** e il test di **Teoria della Mente** Sally-Anne, con l'obiettivo di raccogliere risposte e fornire un'analisi basata sul comportamento dei bambini durante i test. i dati raccolti da il robot pepper sono poi utilizzati dal medico per diagnosticare autismo o erogare terapie.
 
-Il sistema di scoring non ha lo scopo di migliorare direttamente il bambino, ma è progettato per valutare i livelli di autismo. I medici sono responsabili della valutazione dei test, mentre Pepper gestisce l'interfaccia e l'interazione durante le prove.
+
 
 ## Funzionalità
 
