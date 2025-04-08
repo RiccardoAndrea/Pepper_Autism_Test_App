@@ -25,7 +25,7 @@
 
 - **Android Studio**: IDE per lo sviluppo dell'applicazione Android.
 - **Java e Kotlin**: Linguaggio di programmazione principale utilizzato per lo sviluppo dell'app.
-- **Pepper SDK e NaoQI**: SDK utilizzato per interagire con il robot Pepper.
+- **Pepper SDK e NaoQI**: SDK e framework utilizzato per interagire con il robot Pepper.
 
 ## Installazione
 
