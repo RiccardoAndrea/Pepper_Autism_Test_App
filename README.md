@@ -30,4 +30,4 @@
 ## Installazione
 
 E necessario installare android developer e pepper sdk e lanciare l'applicazione robotica.
-Seguire la documentazione allegata per lanciare un' applicazione robotica mediante android.
+Seguire la documentazione allegata relazione_tirocinio_riccardo_andrea_spinosa.pdf per lanciare un' applicazione robotica mediante android.
