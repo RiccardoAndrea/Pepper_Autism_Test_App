@@ -16,7 +16,7 @@
 
 ### Per il Bambino
 - **Interazione con il Robot Pepper**: Il bambino interagisce con il robot Pepper durante i test, rispondendo alle domande e alle attività proposte.
-- **Saluti e Motivazione**: Pepper saluta il bambino, lo guida durante il test, e lo motiva con parole di incoraggiamento. Quando il bambino risponde correttamente, Pepper esegue animazioni per mostrare entusiasmo e celebrare i progressi.
+- **Saluti e Motivazione**: Pepper saluta il medico, guida il bambino durante il test, e lo motiva con parole di incoraggiamento. Quando il bambino risponde correttamente, Pepper esegue animazioni per mostrare entusiasmo e celebrare i progressi.
 - **Gestione delle Distrazioni e Errori**: Se il bambino commette troppi errori, Pepper esegue una animazione del respiro e invita il bambino a calmarsi e respirare. Inoltre, quando il bambino non risponde o appare disattento, Pepper emette un suono per recuperare la sua attenzione.
 - **Erogazione dei Test**: Pepper guida il bambino attraverso i test e interagisce con lui durante le prove. Nel **Cloze Test**, ascolta la risposta del bambino e verifica se la risposta è corretta o errata.
 - **Registrazione delle Risposte**: Durante il test **Sally-Anne**, Pepper registra le risposte del bambino per ogni domanda.
